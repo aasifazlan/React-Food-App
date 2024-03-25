@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: aqua;
+    /* position: fixed ;
+    z-index: 10; */
+
+}
+.nav-item a{
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    
+    
+}
+.nav-img{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+.res-card{
+    margin: 20px 10px;
+    width: 200px;
+    height: 300px;
+    background-color: brown;
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+.res-card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.res-card-items{
+     margin-left: 10px;
+     margin-top: 0.2px;
+}
+.res-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.filter-btn {
+    padding: 6px 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.filter-btn:hover{
+    cursor: pointer;
+}
+.nav-img:hover{
+    cursor: pointer;
+    
+    transform: scale(2,) translateX(25px)
+}
+.Shimmer-container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Shimmer-card{
+    margin: 20px auto;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.filter{
+    margin-left: px;
+    display: flex;
+    
+   
+    align-items: start;
+}
+.search-input,.search-btn{
+    padding: 6px 4px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+.error-page{
+    margin: 220px 300px;
+     
+}
+ .res-cards a{
+    text-decoration: none;
+    color: black;
+ }
+ .menu-card{
+    padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid rgb(169, 161, 161);
+      border-radius: 10px;
+      margin: 10px 10px;
+      font-weight: 700;
+       
+ }
+ .menu-card img{
+     width: 100px;
+     height: 100px;
+     border: 1px solid ;
+     border-radius: 10px;
+     
+ }
+ .img-add-btn{
+    position: relative;
+ }
+ .user{
+    padding: 20px;
+    margin: 10px;
+    border: 1px grey solid;
+ }
